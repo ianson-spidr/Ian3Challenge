@@ -58,6 +58,7 @@ function App() {
           style={{
             textAlign: "center",
             color: "#56acbd",
+            fontWeight: "normal",
           }}
         >
           Contact Us!
@@ -99,6 +100,7 @@ function App() {
             type="email"
             register={register}
             errors={errors}
+            placeholder="example@example.com"
             validation={{
               required: "Email is required",
               pattern: {
@@ -130,7 +132,7 @@ function App() {
                 width: "auto",
                 padding: "0.875rem 2rem",
                 fontSize: "1rem",
-                fontWeight: "600",
+                fontWeight: "normal",
                 cursor: "pointer",
                 transition: "background-color 0.2s ease, transform 0.1s ease",
                 marginTop: "1rem",
